@@ -1,11 +1,10 @@
 name: Test Project
 
-on:
-  push:
+on: workflow_dispatch 
 
-permissions:
-  actions: write
-  contents: read
+#permissions:
+  #actions: write
+  #contents: read
 
 jobs:
   test:
